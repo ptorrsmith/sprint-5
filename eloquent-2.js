@@ -113,6 +113,8 @@ for (var row = 0; row < size; row++) {
     boardHTML += "<br>"
 }
 console.log(board);
-document.write(boardHTML);
 
+//document.findElementsByName("body")[0].innerHTML=boardHTML;
+//document.findElementsByName("body")[0].innerHTML=boardHTML;
+document.body.innerHTML=boardHTML;
 
