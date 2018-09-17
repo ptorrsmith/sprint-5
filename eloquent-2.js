@@ -1,3 +1,12 @@
+/*
+
+Eloquent JS Ch2 Program Structure
+Exercises
+
+*/
+
+
+
 function lineDivider() {
     console.log("--------------------------------------------------------------")
 }
@@ -113,6 +122,7 @@ for (var row = 0; row < size; row++) {
     boardHTML += "<br>"
 }
 console.log(board);
+
 
 //document.findElementsByName("body")[0].innerHTML=boardHTML;
 //document.findElementsByName("body")[0].innerHTML=boardHTML;
